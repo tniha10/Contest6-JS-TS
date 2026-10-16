@@ -22,7 +22,6 @@ Dates are valid strings in `YYYY-MM-DD` format
 Years are between 1970 and 2099
 The function must return a non-negative integer */}
 
-
 function daysBetweenDates(date1, date2) {
   const firstDate = new Date(date1);
   const secondDate = new Date(date2);
